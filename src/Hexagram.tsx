@@ -52,6 +52,7 @@ export default function Hexagram() {
           {para}
         </div>
       ))}
+      <div className="h2 col-2">The Image</div>
       {images[indexUpper][indexLower]!.map((para, index) => (
         <div className="spacedline col-2" key={index}>
           {para}
